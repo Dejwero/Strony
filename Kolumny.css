@@ -1,0 +1,15 @@
+			body{
+				width: 100%;
+				margin: 0 auto;
+			}
+			
+			.container{
+				display: flex;
+				flex-direction: column;
+			}
+			
+			.napis{
+				display: flex;
+				margin: 7px 20px;
+				padding: 10px;
+			}

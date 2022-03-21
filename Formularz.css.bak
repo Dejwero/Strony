@@ -1,0 +1,23 @@
+body{
+	width: 100%;
+	display: flex;
+	
+}
+.container{
+	display: flex;
+	flex-direction: column;
+}
+.pole{
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	place-items: center;
+}
+input{
+	height: 50%;
+
+}
+.przycisk{
+	margin-top: 7px;
+	width: 30%;
+}
+			

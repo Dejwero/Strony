@@ -1,0 +1,26 @@
+.container{
+	display: grid;
+	grid-template-columns: repeat(3,500px);
+	place-items: center;
+}
+
+.zdjecie{
+	display: flex;
+	flex-direction: column;
+	height: 500px;
+	width: 300px;
+}
+body{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	overflow: hidden;
+}
+img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+p{
+	text-align: center;
+}

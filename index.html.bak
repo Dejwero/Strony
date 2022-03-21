@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Strona główna</title>
+	</head>
+	<body>
+		<h>Dawid Rozumkiewicz</h><br>
+		<a href="http://dawidrozumkiewicz.cba.pl/Zadanie2a.html">Zadanie 2a</a><br>
+		<a href="http://dawidrozumkiewicz.cba.pl/Zadanie2b.html">Zadanie 2b</a><br>
+		<a href="http://dawidrozumkiewicz.cba.pl/Zadanie2c.html">Zadanie 2c</a><br>
+	</body>
+</html>
