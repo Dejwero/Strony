@@ -20,4 +20,8 @@ input{
 	margin-top: 7px;
 	width: 30%;
 }
+input[type="radio"] {
+	height: 13px;
+	width: 13px;
+}
 			

@@ -1,7 +1,7 @@
 body{
 	width: 100%;
 	display: flex;
-	
+	overflow-x: hidden;
 }
 .container{
 	display: flex;
@@ -19,5 +19,9 @@ input{
 .przycisk{
 	margin-top: 7px;
 	width: 30%;
+}
+input[type="radio"] {
+	height: 15px;
+	width: 15px;
 }
 			
