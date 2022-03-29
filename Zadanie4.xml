@@ -1,0 +1,37 @@
+<?xml version = "1.0"?>
+<?xml-stylesheet type="text/xsl" href="4.xslt"?>
+<Dane xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Numer>2137</Numer>
+	<Miejscowość>Warszawa</Miejscowość>
+	<Data>22.02.2022</Data>
+	<Osoby>
+		<Osoba1>
+			<Imię>Dawid</Imię>
+			<Nazwisko>Rozumkiewicz</Nazwisko>
+		</Osoba1>
+		<Osoba2>
+			<Imię>Jan</Imię>
+			<Nazwisko>Kowalski</Nazwisko>
+		</Osoba2>
+	</Osoby>
+	<Towary>
+		<Towar1>
+					<Nazwa>Rower</Nazwa>
+					<Ilość>2</Ilość>
+					<CenabezVAT>600</CenabezVAT>
+					<Stawka>0.23</Stawka>
+		</Towar1>
+		<Towar2>
+					<Nazwa>Telefon</Nazwa>
+					<Ilość>1</Ilość>
+					<CenabezVAT>1000</CenabezVAT>
+					<Stawka>0.23</Stawka>
+		</Towar2>
+		<Towar3>
+					<Nazwa>Biórko</Nazwa>
+					<Ilość>3</Ilość>
+					<CenabezVAT>200</CenabezVAT>
+					<Stawka>0.23</Stawka>
+		</Towar3>
+	</Towary>
+</Dane>
