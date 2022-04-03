@@ -1,0 +1,42 @@
+body 
+{
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	background-color: #c4c4c4;
+}
+.button-container 
+{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+}
+.container
+{
+	background-color: #3f3f3f;
+	padding: 1em;
+	border-style: solid;
+	border-radius: 1em;
+	padding: 1.5em;	
+}
+.button
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center; 
+	justify-content: center;
+	height: 90px;
+	width: 90px;
+	border-radius: 0.7em;
+	font-size: 35px;
+}
+.wyswietlacz
+{
+	text-align: right;
+	height: 70px;
+	width: 330px;
+	border-style: inset;
+	font-size: 40px;
+	background-color: white;
+	padding: 0.3em;
+	overflow: hidden;
+}

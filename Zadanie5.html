@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Zadanie 5</title>
+		<link rel="stylesheet" href="style.css"/>
+	<script>
+		k="";
+		function wypisywanie(przycisk)
+		{
+			obj=document.getElementById("par1");
+
+			obj.innerHTML+=przycisk.value;;
+		}
+		function wynik()
+		{
+			a = eval(obj.innerHTML);
+			obj.innerHTML = a;
+		}
+		function del()
+		{
+			obj.innerHTML = obj.innerHTML.slice(0,-1);
+		}
+		function CE()
+		{
+			obj.innerHTML = "";
+		}
+	</script>
+	</head>
+	
+	<body>
+		<div class ="container">
+			<p class = "wyswietlacz" id="par1" maxlength="10"></p>
+		
+			<div class ="button-container">
+				<input class="button" type="button" id="przyciskCE" name="przycisk" value="CE" onClick="CE()">
+				<input class="button" type="button" id="przyciskDel" name="przycisk" value="Del" onClick="del()">
+				<input class="button" type="button" id="przyciskOK" name="przycisk" value="(" onClick="wypisywanie(this)">
+				<input class="button" type="button" id="przyciskOK2" name="przycisk" value=")" onClick="wypisywanie(this)">
+				<input class="button" type="button" id="przycisk7" name="przycisk" value="7" onClick="wypisywanie(this)">
+				<input class="button" type="button" id="przycisk8" name="przycisk" value="8" onClick="wypisywanie(this)">
+				<input class="button" type="button" id="przycisk9" name="przycisk" value="9" onClick="wypisywanie(this)">
+				<input class="button" type="button" id="przycisk+" name="przycisk" value="+" onClick="wypisywanie(this)">
+				<input class="button" type="button" id="przycisk4" name="przycisk" value="4" onClick="wypisywanie(this)">
+				<input class="button" type="button" id="przycisk5" name="przycisk" value="5" onClick="wypisywanie(this)">
+				<input class="button" type="button" id="przycisk6" name="przycisk" value="6" onClick="wypisywanie(this)">
+				<input class="button" type="button" id="przycisk-" name="przycisk" value="-" onClick="wypisywanie(this)">
+				<input class="button" type="button" id="przycisk1" name="przycisk" value="1" onClick="wypisywanie(this)">
+				<input class="button" type="button" id="przycisk2" name="przycisk" value="2" onClick="wypisywanie(this)">
+				<input class="button" type="button" id="przycisk3" name="przycisk" value="3" onClick="wypisywanie(this)">
+				<input class="button" type="button" id="przycisk*" name="przycisk" value="*" onClick="wypisywanie(this)">
+				<input class="button" type="button" id="przycisk." name="przycisk" value="." onClick="wypisywanie(this)">
+				<input class="button" type="button" id="przycisk0" name="przycisk" value="0" onClick="wypisywanie(this)">
+				<input class="button" type="button" id="przycisk=" name="przycisk" value="=" onClick="wynik()">
+				<input class="button" type="button" id="przycisk/" name="przycisk" value="/" onClick="wypisywanie(this)">
+			</div>
+		</div>
+	</body>
+</html>
