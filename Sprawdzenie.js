@@ -69,7 +69,7 @@ function sprawdz4()
 	obj = document.getElementById('nr_domu');
 	txt = obj.value;
 	
-	var Wyrażenie = new RegExp("^[1-9]([A-Z]{0,1}|[0-9]{0,20})$");
+	var Wyrażenie = new RegExp("^[1-9]{0,20}([A-Z]{0,1}|[a-z]{0,1}|[0-9]{0,10})$");
 	wynik = Wyrażenie.test(txt);
 	if(wynik)
 	{
